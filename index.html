@@ -6,13 +6,13 @@
   
   <!-- Primary Meta Tags -->
   <!-- TODO: Replace with your paper title and author names -->
-  <meta name="title" content="LaViRA">
+  <meta name="title" content="LaViRA: Language-Vision-Robot Actions Translation for Zero-Shot Vision Language Navigation in Continuous Environments">
   <!-- TODO: Write a compelling 150-160 character description of your research -->
-  <meta name="description" content="LaViRA: a simple yet effective zero-shot Vision-and-Language Navigation framework">
+  <meta name="description" content="LaViRA: a simple yet effective zero-shot Vision-and-Language Navigation framework accepted at ICRA 2026">
   <!-- TODO: Add 5-10 relevant keywords for your research area -->
   <meta name="keywords" content="LaViRA, Multimodal Large Language Models, Vision-and-Language Navigation, Zero-Shot Learning, Robotics, AI, Computer Vision">
   <!-- TODO: List all authors -->
-  <meta name="author" content="FIRST_AUTHOR_NAME, SECOND_AUTHOR_NAME">
+  <meta name="author" content="Hongyu Ding, Ziming Xu, Yudong Fang, You Wu, Zixuan Chen, Jieqi Shi, Jing Huo, Yifan Zhang, Yang Gao">
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
   
@@ -22,43 +22,46 @@
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="article">
   <!-- TODO: Same as paper title above -->
-  <meta property="og:title" content="LaViRA">
+  <meta property="og:title" content="LaViRA: Language-Vision-Robot Actions Translation for Zero-Shot Vision Language Navigation in Continuous Environments">
   <!-- TODO: Same as description above -->
-  <meta property="og:description" content="LaViRA: a simple yet effective zero-shot Vision-and-Language Navigation framework">
+  <meta property="og:description" content="LaViRA: a simple yet effective zero-shot Vision-and-Language Navigation framework accepted at ICRA 2026">
   <!-- TODO: Replace with your actual website URL -->
-  <meta property="og:url" content="https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE">
+  <meta property="og:url" content="https://robo-lavira.github.io/lavira-zs-vln/">
   <!-- TODO: Create a 1200x630px preview image and update path -->
-  <meta property="og:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta property="og:image" content="https://robo-lavira.github.io/lavira-zs-vln/static/images/social_preview.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:image:alt" content="LaViRA - Research Preview">
-  <meta property="article:published_time" content="2024-01-01T00:00:00.000Z">
-  <meta property="article:author" content="FIRST_AUTHOR_NAME">
+  <meta property="article:published_time" content="2025-10-22T00:00:00.000Z">
+  <meta property="article:author" content="Hongyu Ding">
   <meta property="article:section" content="Research">
   <meta property="article:tag" content="LaViRA">
   <meta property="article:tag" content="Vision-and-Language Navigation">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <!-- TODO: Replace with your lab/institution Twitter handle -->
-  <meta name="twitter:site" content="@YOUR_TWITTER_HANDLE">
-  <!-- TODO: Replace with first author's Twitter handle -->
-  <meta name="twitter:creator" content="@AUTHOR_TWITTER_HANDLE">
   <!-- TODO: Same as paper title above -->
-  <meta name="twitter:title" content="LaViRA">
+  <meta name="twitter:title" content="LaViRA: Language-Vision-Robot Actions Translation for Zero-Shot Vision Language Navigation in Continuous Environments">
   <!-- TODO: Same as description above -->
-  <meta name="twitter:description" content="LaViRA: a simple yet effective zero-shot Vision-and-Language Navigation framework">
+  <meta name="twitter:description" content="LaViRA: a simple yet effective zero-shot Vision-and-Language Navigation framework accepted at ICRA 2026">
   <!-- TODO: Same as social preview image above -->
-  <meta name="twitter:image" content="https://YOUR_DOMAIN.com/static/images/social_preview.png">
+  <meta name="twitter:image" content="https://robo-lavira.github.io/lavira-zs-vln/static/images/social_preview.png">
   <meta name="twitter:image:alt" content="LaViRA - Research Preview">
 
   <!-- Academic/Research Specific -->
-  <meta name="citation_title" content="LaViRA">
-  <meta name="citation_author" content="FIRST_AUTHOR_LAST, FIRST_AUTHOR_FIRST">
-  <meta name="citation_author" content="SECOND_AUTHOR_LAST, SECOND_AUTHOR_FIRST">
-  <meta name="citation_publication_date" content="2024">
-  <meta name="citation_conference_title" content="CONFERENCE_NAME">
-  <meta name="citation_pdf_url" content="https://YOUR_DOMAIN.com/static/pdfs/paper.pdf">
+  <meta name="citation_title" content="LaViRA: Language-Vision-Robot Actions Translation for Zero-Shot Vision Language Navigation in Continuous Environments">
+  <meta name="citation_author" content="Ding, Hongyu">
+  <meta name="citation_author" content="Xu, Ziming">
+  <meta name="citation_author" content="Fang, Yudong">
+  <meta name="citation_author" content="Wu, You">
+  <meta name="citation_author" content="Chen, Zixuan">
+  <meta name="citation_author" content="Shi, Jieqi">
+  <meta name="citation_author" content="Huo, Jing">
+  <meta name="citation_author" content="Zhang, Yifan">
+  <meta name="citation_author" content="Gao, Yang">
+  <meta name="citation_publication_date" content="2026">
+  <meta name="citation_conference_title" content="ICRA 2026">
+  <meta name="citation_pdf_url" content="https://arxiv.org/pdf/2510.19655">
   
   <!-- Additional SEO -->
   <meta name="theme-color" content="#2563eb">
@@ -75,7 +78,7 @@
 
 
   <!-- TODO: Replace with your paper title and authors -->
-  <title>LaViRA</title>
+  <title>LaViRA: Language-Vision-Robot Actions Translation for Zero-Shot Vision Language Navigation in Continuous Environments</title>
 
   <!-- Critical CSS - Load synchronously -->
   <link rel="stylesheet" href="static/css/bulma.min.css">
@@ -111,50 +114,106 @@
   {
     "@context": "https://schema.org",
     "@type": "ScholarlyArticle",
-    "headline": "PAPER_TITLE",
-    "description": "BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS",
+    "headline": "LaViRA: Language-Vision-Robot Actions Translation for Zero-Shot Vision Language Navigation in Continuous Environments",
+    "description": "A simple yet effective zero-shot framework that decomposes navigation into Language Action for high-level planning, Vision Action for perceptual grounding, and Robot Action for robust navigation",
     "author": [
       {
         "@type": "Person",
-        "name": "FIRST_AUTHOR_NAME",
+        "name": "Hongyu Ding",
         "affiliation": {
           "@type": "Organization",
-          "name": "INSTITUTION_NAME"
+          "name": "School of Computer Science, Nanjing University"
         }
       },
       {
         "@type": "Person",
-        "name": "SECOND_AUTHOR_NAME",
+        "name": "Ziming Xu",
         "affiliation": {
           "@type": "Organization",
-          "name": "INSTITUTION_NAME"
+          "name": "School of Computer Science, Nanjing University"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Yudong Fang",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "School of Intelligence Science and Technology, Nanjing University"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "You Wu",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "School of Computer Science, Nanjing University"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Zixuan Chen",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "School of Computer Science, Nanjing University"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Jieqi Shi",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "School of Intelligence Science and Technology, Nanjing University"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Jing Huo",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "School of Computer Science, Nanjing University"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Yifan Zhang",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "Institute of Automation, Chinese Academy of Sciences"
+        }
+      },
+      {
+        "@type": "Person",
+        "name": "Yang Gao",
+        "affiliation": {
+          "@type": "Organization",
+          "name": "School of Intelligence Science and Technology, Nanjing University"
         }
       }
     ],
-    "datePublished": "2024-01-01",
+    "datePublished": "2025-10-22",
     "publisher": {
       "@type": "Organization",
-      "name": "CONFERENCE_OR_JOURNAL_NAME"
+      "name": "ICRA 2026"
     },
-    "url": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE",
-    "image": "https://YOUR_DOMAIN.com/static/images/social_preview.png",
-    "keywords": ["KEYWORD1", "KEYWORD2", "KEYWORD3", "machine learning", "computer vision"],
-    "abstract": "FULL_ABSTRACT_TEXT_HERE",
-    "citation": "BIBTEX_CITATION_HERE",
+    "url": "https://robo-lavira.github.io/lavira-zs-vln/",
+    "image": "https://robo-lavira.github.io/lavira-zs-vln/static/images/social_preview.png",
+    "keywords": ["LaViRA", "Vision-Language Navigation", "Zero-Shot Learning", "Multimodal Large Language Models", "Robotics", "Computer Vision"],
+    "abstract": "Zero-shot Vision-and-Language Navigation in Continuous Environments (VLN-CE) requires an agent to navigate unseen environments based on natural language instructions without any prior training. Current methods face a critical trade-off: either rely on environment-specific waypoint predictors that limit scene generalization, or underutilize the reasoning capabilities of large models during navigation. We introduce LaViRA, a simple yet effective zero-shot framework that addresses this dilemma by decomposing action into a coarse-to-fine hierarchy: Language Action for high-level planning, Vision Action for perceptual grounding, and Robot Action for robust navigation. This modular decomposition allows us to leverage the distinct strengths of different scales of Multimodal Large Language Models (MLLMs) at each stage, creating a system that is powerful in its reasoning, grounding and practical control. LaViRA significantly outperforms existing state-of-the-art methods on the VLN-CE benchmark, demonstrating superior generalization capabilities in unseen environments, while maintaining transparency and efficiency for real-world deployment.",
+    "citation": "@inproceedings{ding2025lavira, title={LaViRA: Language-Vision-Robot Actions Translation for Zero-Shot Vision Language Navigation in Continuous Environments}, author={Ding, Hongyu and Xu, Ziming and Fang, Yudong and Wu, You and Chen, Zixuan and Shi, Jieqi and Huo, Jing and Zhang, Yifan and Gao, Yang}, booktitle={ICRA 2026}, year={2026}}",
     "isAccessibleForFree": true,
     "license": "https://creativecommons.org/licenses/by/4.0/",
     "mainEntity": {
       "@type": "WebPage",
-      "@id": "https://YOUR_DOMAIN.com/YOUR_PROJECT_PAGE"
+      "@id": "https://robo-lavira.github.io/lavira-zs-vln/"
     },
     "about": [
       {
         "@type": "Thing",
-        "name": "RESEARCH_AREA_1"
+        "name": "Vision-Language Navigation"
       },
       {
         "@type": "Thing", 
-        "name": "RESEARCH_AREA_2"
+        "name": "Robotics"
       }
     ]
   }
@@ -165,11 +224,10 @@
   {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "INSTITUTION_OR_LAB_NAME",
-    "url": "https://YOUR_INSTITUTION_WEBSITE.com",
+    "name": "Nanjing University Robotics Lab",
+    "url": "https://www.nju.edu.cn",
     "sameAs": [
-      "https://twitter.com/YOUR_TWITTER_HANDLE",
-      "https://github.com/YOUR_GITHUB_USERNAME"
+      "https://github.com/robo-lavira"
     ]
   }
   </script>
@@ -193,7 +251,49 @@
             <div class="is-size-5 publication-authors">
               <!-- TODO: Replace with your paper authors and their personal links -->
               <span class="author-block">
-                Anonymous Author(s)
+                Hongyu Ding<sup>1,*</sup>,
+              </span>
+              <span class="author-block">
+                Ziming Xu<sup>1,*</sup>,
+              </span>
+              <span class="author-block">
+                Yudong Fang<sup>2</sup>,
+              </span>
+              <span class="author-block">
+                You Wu<sup>1</sup>,
+              </span>
+              <span class="author-block">
+                Zixuan Chen<sup>1</sup>,
+              </span>
+              <span class="author-block">
+                Jieqi Shi<sup>2,†</sup>,
+              </span>
+              <span class="author-block">
+                Jing Huo<sup>1,†</sup>,
+              </span>
+              <span class="author-block">
+                Yifan Zhang<sup>3</sup>,
+              </span>
+              <span class="author-block">
+                Yang Gao<sup>2</sup>
+              </span>
+            </div>
+
+            <div class="is-size-7 publication-authors" style="margin-top: 10px;">
+              <span class="author-block">
+                <sup>1</sup>School of Computer Science, Nanjing University
+              </span>
+              <span class="author-block">
+                <sup>2</sup>School of Intelligence Science and Technology, Nanjing University
+              </span>
+              <span class="author-block">
+                <sup>3</sup>Institute of Automation, Chinese Academy of Sciences
+              </span>
+            </div>
+
+            <div class="is-size-7 publication-authors" style="margin-top: 10px; color: #666;">
+              <span class="author-block">
+                <sup>*</sup>Equal Contribution, <sup>†</sup>Corresponding Author
               </span>
             </div>
 
@@ -211,7 +311,7 @@
                 </span>
                 <!-- TODO: Replace with your GitHub repository URL -->
                 <span class="link-block">
-                  <a href="https://robo-lavira.github.io/lavira-zs-vln/" target="_blank"
+                  <a href="https://github.com/robo-lavira/lavira-zs-vln" target="_blank"
                   class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                     <i class="fab fa-github"></i>
@@ -227,6 +327,11 @@
     </div>
   </section>
 
+  <div class="publication-meta" style="text-align: center; padding: 20px; background-color: #f5f5f5; margin: 20px 0;">
+    <p style="margin: 0; color: #27ae60; font-weight: bold;">
+      🎉 Accepted at ICRA 2026
+    </p>
+  </div>
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
@@ -248,138 +353,25 @@ LaViRA significantly outperforms existing state-of-the-art methods on the VLN-CE
 </section>
 <!-- End paper abstract -->
 
-
-<!-- Research Results -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container is-max-desktop">
-      <!-- Teaser Image -->
-      <div class="columns is-centered">
-        <div class="column is-four-fifths">
-          <h2 class="title is-3 has-text-centered">Overview</h2>
-          <div class="has-text-centered">
-            <img src="static/images/teaser.png" alt="Teaser showing main results" style="width: 80%; max-width: 700px;" loading="lazy"/>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Pipeline Image -->
-      <div class="columns is-centered" style="margin-top: 3rem;">
-        <div class="column is-four-fifths">
-          <h2 class="title is-3 has-text-centered">Pipeline</h2>
-          <div class="has-text-centered">
-            <img src="static/images/pipeline.png" alt="Method pipeline overview" style="width: 100%; max-width: 1000px;" loading="lazy"/>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Simulation Experiments Image -->
-      <div class="columns is-centered" style="margin-top: 3rem;">
-        <div class="column is-four-fifths">
-          <h2 class="title is-3 has-text-centered">Simulation Experiments</h2>
-          <div class="has-text-centered">
-            <img src="static/images/result.png" alt="Main experimental results" style="width: 80%; max-width: 700px;" loading="lazy"/>
-          </div>
-        </div>
-      </div>
-      
-      <!-- Visualization Image -->
-      <div class="columns is-centered" style="margin-top: 3rem;">
-        <div class="column is-four-fifths">
-          <h2 class="title is-3 has-text-centered">Visualization</h2>
-          <div class="has-text-centered">
-            <img src="static/images/nav-vis.png" alt="Navigation visualization" style="width: 100%; max-width: 900px;" loading="lazy"/>
-          </div>
-        </div>
-      </div>
-
-      <!-- Real-World Experiments Section -->
-      <div class="columns is-centered" style="margin-top: 3rem;">
-        <div class="column is-four-fifths">
-          <h2 class="title is-3 has-text-centered">Real-World Experiments</h2>
-          
-          <!-- Example Video 1 -->
-          <div class="columns is-centered" style="margin-bottom: 1rem;">
-            <div class="column is-full">
-              <div class="has-text-centered">
-                <video controls style="width: 100%; max-width: 800px;" loading="lazy">
-                  <source src="static/videos/aloha_exp.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-                </video>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Example Video 2 -->
-          <div class="columns is-centered" style="margin-bottom: 2rem;">
-            <div class="column is-full">
-              <div class="has-text-centered">
-                <video controls style="width: 100%; max-width: 800px;" loading="lazy">
-                  <source src="static/videos/aloha-interact.mp4" type="video/mp4">
-                  Your browser does not support the video tag.
-                </video>
-              </div>
-            </div>
-          </div>
-          
-          <!-- Video Carousel -->
-          <div id="video-carousel" class="carousel results-carousel">
-            <div class="item">
-              <video poster="" controls muted loop height="100%" preload="metadata">
-                <source src="static/videos/aloha_01.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            </div>
-            <div class="item">
-              <video poster="" controls muted loop height="100%" preload="metadata">
-                <source src="static/videos/aloha_02.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            </div>
-            <div class="item">
-              <video poster="" controls muted loop height="100%" preload="metadata">
-                <source src="static/videos/go_01.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            </div>
-            <div class="item">
-              <video poster="" controls muted loop height="100%" preload="metadata">
-                <source src="static/videos/go_02.mp4" type="video/mp4">
-                Your browser does not support the video tag.
-              </video>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End Real-World Experiments section -->
-
+  </main>
 
   <footer class="footer">
-  <div class="container">
-    <div class="columns is-centered">
-      <div class="column is-8">
-        <div class="content">
-
-          <p>
-            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
-            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
-            Commons Attribution-ShareAlike 4.0 International License</a>.
-          </p>
-
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-8">
+          <div class="content">
+            <p>
+              This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io/">Nerfies</a> project page.
+              You are free to borrow <a href="https://github.com/eliahuhorwitz/Academic-project-page-template">the source code</a> of this website, we just ask that you link back to this page in the footer.
+              <br> <br>
+              This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+              Commons Attribution-ShareAlike 4.0 International License</a>.
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</footer>
+  </footer>
 
-<!-- Statcounter tracking code -->
-  
-<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
-
-    <!-- End of Statcounter Code -->
-
-  </body>
+</body>
 </html>
